@@ -11,7 +11,7 @@ What is ACE-Deface?<br>
 ACE can deface multiple websites depending on how many you want. This script is not dangerous and i recommend using a VPN when using... This is only the file upload method<br>
 
 <details closed>
-<summary>* Other languages</summary>
+* <summary>ther languages</summary>
 <br>
 
 ### español | Spanish
