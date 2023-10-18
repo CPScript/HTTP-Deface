@@ -12,7 +12,8 @@ ACE can deface multiple websites depending on how many you want. This script is 
 
 
 <details closed>
-<summary>**Other languages**</summary>
+* Other Languages
+<summary>Click me!</summary>
 <br>
 
 ### español | Spanish
