@@ -8,13 +8,14 @@ except ImportError:
    exit("install requests and try again ...")
 
 banner = """
-
- █████╗ ██╗  ██╗██████╗  Author : Ms.ambari
-██╔══██╗╚██╗██╔╝██╔══██╗ Date   : 2018-12-01
-███████║ ╚███╔╝ ██║  ██║ Tools  : aoXdeface V.1.0
-██╔══██║ ██╔██╗ ██║  ██║ Github : /Ranginang67
-██║  ██║██╔╝ ██╗██████╔╝ youtube: Ms.ambari
-╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ 
+ 
+ /||||||||\\
+| A        || Author : Disease (CPScript)
+|          || Date   : 8-18-2023
+|    ♤    || Tools  : ACE-Deface V.1.0
+|          || Github : CPScript
+|        A ||
+ \________//
 """
 
 b = '\033[31m'
