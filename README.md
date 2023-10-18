@@ -47,7 +47,7 @@ ACE может испортить несколько веб-сайтов в за
 ---
 <div align=left>
 
-* How to use:
+### How to use:
 
 **Termux:**
 * `pkg install python2`
