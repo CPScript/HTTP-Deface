@@ -44,9 +44,13 @@ ACE может испортить несколько веб-сайтов в за
 
 
 
-**screnshot:**
+* screnshot:
 
-**How to use:**
+
+
+---
+
+* How to use:
 
 **Termux:**
 * `pkg install python2`
@@ -65,8 +69,6 @@ ACE может испортить несколько веб-сайтов в за
 * `cd AOXdeface`
 * `python aox.py`
 
-**NOTE:** before using this tool, put your deface script with the aox.py file, edit the file 'target.txt' and enter the target url
+**NOTE:** Before using this tool, put your deface script with the ACE.py file, edit the file 'target.txt' and enter the target url(s)
 
-
-[YOUTUBE](https://www.youtube.com/channel/UCNMD5U02GFeWLqmrl_XSPGQ) <br>
-[TLEGRAM](https://t.me/Msambari)
+| By: CPScript
