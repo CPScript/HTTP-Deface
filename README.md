@@ -2,6 +2,9 @@
 
 # ACE-Deface
 
+![ace](https://github.com/CPScript/ACE-Deface/assets/83523587/4bb5d0a8-c5c0-417d-9164-4f24a06b6dec)
+
+
 </div>
 
 <div align=left>
@@ -35,13 +38,6 @@ ACE может испортить несколько веб-сайтов в за
 
 ---
 </div>
-
-
-
-
-
-
-
 
 <div align=center>
 
