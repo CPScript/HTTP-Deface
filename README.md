@@ -60,20 +60,20 @@ ACE может испортить несколько веб-сайтов в за
 * `pkg install python2`
 * `pip2 install requests`
 * `pkg install git`
-* `git clone https://github.com/Ranginang67/AOXdeface`
-* `cd AOXdeface`
-* `python2 aox.py`
+* `git clone https://github.com/CPScript/ACE-Deface`
+* `cd ACE-Deface`
+* `python2 ace.py`
 
 **Linux:**
 * `apt-get install python`
 * `apt-get install pthon-pip`
 * `pip install requests`
 * `apt-get install git`
-* `git clone https://github.com/Ranginang67/AOXdeface`
-* `cd AOXdeface`
-* `python aox.py`
+* `git clone https://github.com/CPScript/ACE-Deface`
+* `cd ACE-Deface`
+* `python ace.py`
 
-**NOTE:** Before using this tool, put your deface script with the ACE.py file, edit the file 'target.txt' and enter the target url(s)
+**NOTE:** Before using this tool, put your deface script with the ace.py file, edit the file 'target.txt' and enter the target url(s)
 
 | By: CPScript
 
