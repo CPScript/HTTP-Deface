@@ -34,6 +34,7 @@ ACE может испортить несколько веб-сайтов в за
 </details>
 
 ---
+</div>
 
 
 
@@ -42,13 +43,16 @@ ACE может испортить несколько веб-сайтов в за
 
 
 
+<div align=center>
+
+## screnshot:
 
 
-* screnshot:
-
+</div>
 
 
 ---
+<div align=left>
 
 * How to use:
 
@@ -72,3 +76,5 @@ ACE может испортить несколько веб-сайтов в за
 **NOTE:** Before using this tool, put your deface script with the ACE.py file, edit the file 'target.txt' and enter the target url(s)
 
 | By: CPScript
+
+</div>
