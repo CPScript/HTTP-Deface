@@ -59,7 +59,7 @@ def main(__bn__):
    print(__bn__)
    while True:
       try:
-         a = x("Enter your script deface name: ")
+         a = x("Enter your site List: ")
          if not os.path.isfile(a):
             print("file '%s' not found"%(a))
             continue
