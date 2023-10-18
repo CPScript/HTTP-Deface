@@ -33,7 +33,7 @@ def x(tetew):
    
    return str(ipt)
 
-def ace(script,target_file="target.txt"):
+def ace(script,target_file="targets.txt"):
    op = open(script,"r").read()
    with open(target_file, "r") as target:
       target = target.readlines()
