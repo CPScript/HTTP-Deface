@@ -16,8 +16,7 @@ os.system('clear')
 print("To get started please select a version of Ace:")
 print("1 > Ace Version 1")
 print("2 > Ace Version 2")
-print("/------------------------------\")
-
+print(" ")
 
 choice = input("Type 1 or 2> ")
 
