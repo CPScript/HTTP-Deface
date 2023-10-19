@@ -59,7 +59,6 @@ ACE может испортить несколько веб-сайтов в за
 
 **Linux:**
 * `apt-get install python`
-* `apt-get install pthon-pip`
 * `apt-get install git`
 * `git clone https://github.com/CPScript/ACE-Deface`
 * `cd ACE-Deface`
