@@ -48,8 +48,12 @@ ACE может испортить несколько веб-сайтов в за
 <div align=left>
 
 ### How to use:
+**First:**
+* Add sits to 'target.txt' 
+* Add your Deface '.html' Script or use the Built in script 'Index.html'
 
-**Termux:**
+**Then Install**
+Termux:
 * `pkg install python2`
 * `pip2 install requests`
 * `pkg install git`
@@ -57,15 +61,18 @@ ACE может испортить несколько веб-сайтов в за
 * `cd ACE-Deface`
 * `python2 run.py`
 
-**Linux:**
+Linux:
 * `apt-get install python`
 * `apt-get install git`
 * `git clone https://github.com/CPScript/ACE-Deface`
 * `cd ACE-Deface`
 * `python run.py`
 
-**NOTE:** Before using this tool, put your deface script with the ace.py file, edit the file 'target.txt' and enter the target url(s)
+Lastly:
+* Choose Version | V1/V2
+* Choose Deface script | Default: 'Index.html'
 
+**Note:** Please use VPN if your not running this in a emulator/VM
 | By: CPScript
 
 </div>
