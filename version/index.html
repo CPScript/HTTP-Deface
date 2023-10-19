@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Message with Image</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #8b0000; /* Blood Red Background */
+        }
+
+        .image {
+            max-width: 100%; /* Ensure the image doesn't exceed its original size */
+        }
+
+        .main-text {
+            text-align: center;
+            font-size: 36px; /* Larger font size for main text */
+            margin: 10px 0; /* Margin around main text */
+        }
+
+        .second-text,
+        .third-text {
+            text-align: center;
+            font-size: 18px; /* Smaller font size for second and third text */
+            margin-bottom: 10px; /* Margin between texts */
+        }
+
+        .white-text {
+            color: white; /* White Text Color */
+        }
+
+        .black-text {
+            color: black; /* Black Text Color */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image">
+        <img src="URL_OF_YOUR_IMAGE" alt="Description of the Image">
+    </div>
+    <div class="main-text">
+        <h3 id="main-text">Site Defaced Using "ACE-Deface"</h3>
+    </div>
+    <div class="second-text">
+        <h5 id="second-text">This was done using a Vulnerability in your site.</h5>
+    </div>
+    <div class="third-text">
+        <h5 id="third-text">Goodbye</h5>
+    </div>
+
+    <script>
+        setInterval(function() {
+            var mainText = document.getElementById("main-text");
+            var secondText = document.getElementById("second-text");
+            var thirdText = document.getElementById("third-text");
+
+            mainText.classList.toggle("white-text");
+            mainText.classList.toggle("black-text");
+
+            secondText.classList.toggle("white-text");
+            secondText.classList.toggle("black-text");
+
+            thirdText.classList.toggle("white-text");
+            thirdText.classList.toggle("black-text");
+        }, 1000); // Inverts text colors every second
+    </script>
+</body>
+
+</html>
