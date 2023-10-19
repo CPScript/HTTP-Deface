@@ -18,11 +18,10 @@ print("1 > Ace Version 1")
 print("2 > Ace Version 2")
 print(" ")
 
-choice = input("Type 1 or 2> ")
+choice = input("")
 
 
 if choice == "1":
-    os.system('clear')
     time.sleep(1)
     print("You have selected AceV1")
     print("Loading...")
@@ -31,7 +30,6 @@ if choice == "1":
     call(["python", "version/aceV1.py"])
 
 if choice == "2":
-    os.system('clear')
     time.sleep(1)
     print("You have selected AceV2")
     print("Loading...")
