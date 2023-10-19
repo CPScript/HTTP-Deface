@@ -12,7 +12,7 @@ banner = """
 　　　　 　 / ＞　　フ   
  　　　　　| 　_　 _ l   Author : Disease (CPScript)
 　 　　 　／` ミ＿xノ    Date   : 8-18-2023
-　　 　 /　　　 　 |     Tools  : ACE-Deface V.1.0
+　　 　 /　　　 　 |     Tools  : ACE-Deface V.1
 　　　 /　 ヽ　　 ﾉ      Note   : Please use VPN!
 　 　 │　　|　|　|
 　／￣|　　 |　|　|
