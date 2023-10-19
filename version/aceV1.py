@@ -59,7 +59,7 @@ def main(__bn__):
    print(__bn__)
    while True:
       try:
-         a = x("Enter your deface script (EX: deface_script.html): ")
+         a = x("Enter your deface script (Type index.html for built in script): ")
          if not os.path.isfile(a):
             print("file '%s' not found"%(a))
             continue
