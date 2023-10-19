@@ -50,7 +50,7 @@ ACE может испортить несколько веб-сайтов в за
 
 ### How to use:
 **First:**
-* Add sits to 'target.txt' 
+* Add site(s) to 'target.txt' 
 * Add your Deface '.html' Script or use the Built in script 'Index.html'
 
 **Then Install**
