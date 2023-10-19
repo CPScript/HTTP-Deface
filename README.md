@@ -55,14 +55,14 @@ ACE может испортить несколько веб-сайтов в за
 * `pkg install git`
 * `git clone https://github.com/CPScript/ACE-Deface`
 * `cd ACE-Deface`
-* `python2 ace.py`
+* `python2 run.py`
 
 **Linux:**
 * `apt-get install python`
 * `apt-get install git`
 * `git clone https://github.com/CPScript/ACE-Deface`
 * `cd ACE-Deface`
-* `python ace.py`
+* `python run.py`
 
 **NOTE:** Before using this tool, put your deface script with the ace.py file, edit the file 'target.txt' and enter the target url(s)
 
