@@ -92,7 +92,7 @@ def main(__bn__):
       try:
          print(green+'[Please put the deface script/ .html file in this same folder and type it\'s name below]'+reset+blue)
          print(' ')
-         a = eagle(green+"[+]\033[0m \033[34mEnter your deface script \033[33m[EX: deface_script.html]\033[0m \033[34m> ")
+         a = eagle(green+"[+]\033[0m \033[34mEnter your deface script \033[33m[Type index.html for built in script]\033[0m \033[34m> ")
          if not os.path.isfile(a):
             print(' ')
             print(red+bold+"	file '%s' not found in this folder !"%(a))
