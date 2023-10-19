@@ -7,9 +7,9 @@ from os import system
 os.system('clear')
 
 # welcome
-sprint("Welcome to Ace. Your personal {r}Web Defacer")
+sprint("Welcome to Ace. Your personal Web Defacer")
 time.sleep(1)
-sprint("{r}Please use a {g}VPN {r}for your {g}safety")
+sprint("Please use a VPN for your safety")
 time.sleep(5)
 print("Have fun!!!")
 time.sleep(0.5)
