@@ -1,6 +1,6 @@
 <div align=center>
 
-![ace](https://github.com/CPScript/ACE-Deface/assets/83523587/3af3bc51-d38a-4ba8-b66c-c6ad7ce3df58)
+![ace](https://png.pngtree.com/png-clipart/20230225/ourmid/pngtree-ace-of-spades-png-image_6615752.png)
 
 ---
 
@@ -74,6 +74,7 @@ Lastly:
 * Choose Deface script | Default: 'Index.html'
 
 **Note:** Please use VPN if your not running this in a emulator/VM
+
 | By: CPScript
 
 </div>
