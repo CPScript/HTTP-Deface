@@ -7,9 +7,9 @@ from os import system
 os.system('clear')
 
 # welcome
-sprint(f"Welcome to Ace. Your personal {r}Web Defacer")
+sprint("Welcome to Ace. Your personal {r}Web Defacer")
 time.sleep(1)
-sprint(f"{r}Please use a {g}VPN {r}for your {g}safety")
+sprint("{r}Please use a {g}VPN {r}for your {g}safety")
 time.sleep(5)
 print("Have fun!!!")
 time.sleep(0.5)
@@ -23,7 +23,7 @@ hoice = input("")
 if choice == "1":
     os.system('clear')
     time.sleep(1)
-    sprint(f"You have selected AceV1")
+    sprint("You have selected AceV1")
     print("Loading...")
     time.sleep(2)
     os.system('clear')
@@ -32,7 +32,7 @@ if choice == "1":
 if choice == "2":
     os.system('clear')
     time.sleep(1)
-    sprint(f"You have selected AceV2")
+    sprint("You have selected AceV2")
     print("Loading...")
     time.sleep(2)
     os.system('clear')
