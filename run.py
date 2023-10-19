@@ -14,7 +14,9 @@ os.system('clear')
 
 # selection
 print("To get started please select a version of Ace:")
-hoice = input("")
+print("1 > Ace Version 1")
+print("2 > Ace Version 2")
+hoice = input("please type 1 or 2:")
 
 
 if choice == "1":
