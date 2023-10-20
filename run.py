@@ -27,8 +27,7 @@ if choice == "1":
     print("Loading...")
     time.sleep(2)
     os.system('clear')
-    os.system('cd version')
-    os.system('python aceV1.py')
+    os.system('python version/aceV1.py')
 
 if choice == "2":
     time.sleep(1)
@@ -36,5 +35,4 @@ if choice == "2":
     print("Loading...")
     time.sleep(2)
     os.system('clear')
-    os.system('cd version')
-    os.system('python aceV2.py')
+    os.system('python version/aceV2.py')
