@@ -57,7 +57,7 @@ ACE может испортить несколько веб-сайтов в за
 
 Termux:
 * `pkg install python2`
-* `pip2 install requests`
+* `pip2 install -r requirments.txt`
 * `pkg install git`
 * `git clone https://github.com/CPScript/ACE-Deface`
 * `cd ACE-Deface`
@@ -65,7 +65,7 @@ Termux:
 
 Linux:
 * `apt-get install python`
-* `pip install requests`
+* `pip install -r requirments.txt``
 * `apt-get install git`
 * `git clone https://github.com/CPScript/ACE-Deface`
 * `cd ACE-Deface`
