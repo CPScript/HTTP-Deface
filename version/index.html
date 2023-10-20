@@ -13,65 +13,55 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #8b0000; 
+            background-color: #8b0000;
         }
 
         .image {
-            max-width: 100%; 
+            max-width: 100%;
         }
 
         .main-text {
             text-align: center;
-            font-size: 36px; 
-            margin: 10px 0; 
+            font-size: 36px;
+            margin: 10px 0;
         }
 
         .second-text,
         .third-text {
             text-align: center;
-            font-size: 18px; 
-            margin-bottom: 10px; 
-        }
-
-        .white-text {
-            color: white; 
-        }
-
-        .black-text {
-            color: black; /
+            font-size: 18px;
+            margin-bottom: 10px;
         }
     </style>
 </head>
 
 <body>
     <div class="image">
-        <img src="https://png.pngtree.com/png-clipart/20230225/ourmid/pngtree-ace-of-spades-png-image_6615752.png" alt="Image">
+        <img src="https://png.pngtree.com/png-clipart/20230225/ourmid/pngtree-ace-of-spades-png-image_6615752.png"
+            alt="Image">
     </div>
     <div class="main-text">
-        <h3 id="main-text">Site Defaced Using "ACE"</h3>
-    </div>
-    <div class="second-text">
-        <h5 id="second-text"> </h5>
-    </div>
-    <div class="third-text">
-        <h5 id="third-text">This was done using a Vulnerability in your site.</h5>
+        <h3 id="main-text">"ACE"</h3>
     </div>
 
     <script>
-        setInterval(function() {
+        setInterval(function () {
             var mainText = document.getElementById("main-text");
             var secondText = document.getElementById("second-text");
             var thirdText = document.getElementById("third-text");
 
-            mainText.classList.toggle("white-text");
-            mainText.classList.toggle("black-text");
-
-            secondText.classList.toggle("white-text");
-            secondText.classList.toggle("black-text");
-
-            thirdText.classList.toggle("white-text");
-            thirdText.classList.toggle("black-text");
-        }, 1000); 
+            // Check the current color of the text and toggle between white and black
+            var currentColor = mainText.style.color;
+            if (currentColor === "white" || currentColor === "") {
+                mainText.style.color = "black";
+                secondText.style.color = "black";
+                thirdText.style.color = "black";
+            } else {
+                mainText.style.color = "white";
+                secondText.style.color = "white";
+                thirdText.style.color = "white";
+            }
+        }, 1000);
     </script>
 </body>
 
