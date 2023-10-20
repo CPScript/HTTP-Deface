@@ -30,7 +30,7 @@ colors = [
     "\033[38;5;214m",
 ]
 color1, color2, color3, color4, color5 = random.sample(colors, 5)
-banner = f"""
+banner = """
 
              ＿＿
 　　　　 　 / ＞　　フ   
@@ -45,7 +45,7 @@ banner = f"""
 
 
 
-"""+reset+blue
+"""
 def animate():
     text = "Uploading script to websites..."
     while True:
