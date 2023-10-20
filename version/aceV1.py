@@ -1,11 +1,9 @@
 #-*- coding: utf-8 -*-
 
-try:
-   import requests
-   import os.path
-   import sys
-except ImportError:
-   exit("install requests and try again ...")
+import requests
+import os.path
+import sys
+
 
 banner = """
              ＿＿
