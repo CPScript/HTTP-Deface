@@ -65,6 +65,7 @@ Termux:
 
 Linux:
 * `apt-get install python`
+* `pip install requests`
 * `apt-get install git`
 * `git clone https://github.com/CPScript/ACE-Deface`
 * `cd ACE-Deface`
