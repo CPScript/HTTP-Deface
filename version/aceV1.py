@@ -31,7 +31,7 @@ def x(tetew):
    
    return str(ipt)
 
-def ace(script,target_file="targets.txt"):
+def ace(script,target_file="version/targets.txt"):
    op = open(script,"r").read()
    with open(target_file, "r") as target:
       target = target.readlines()
@@ -57,7 +57,7 @@ def main(__bn__):
    print(__bn__)
    while True:
       try:
-         a = x("Enter your deface script (Type index.html for built in script): ")
+         a = x("Enter your deface script (Type 'version/index.html' for the built in script!): ")
          if not os.path.isfile(a):
             print("file '%s' not found"%(a))
             continue
