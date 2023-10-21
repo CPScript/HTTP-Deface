@@ -51,7 +51,7 @@ def animate():
     while True:
         for i in range(len(text)):
             print(text[:i] + "♤" + text[i+1:], end="\r")
-            time.sleep(0.01)
+            time.sleep(0.5)
 def eagle(tetew):
    ipt = ''
    if sys.version_info.major > 2:
@@ -92,7 +92,7 @@ def main(__bn__):
       try:
          print(yellow+'Please use cautiously!'+reset+red)
          print(' ')
-         a = eagle(yellow+"[+]\033[0m \033[34mEnter your deface script's name \033[33m[Type 'version/index.html' For the built in script!]\033[0m \033[34m> ")
+         a = eagle(red+"♤ace♤\033[0m \033[34mEnter your deface script's name \033[33m[Type 'version/index.html' For the built in script!]\033[0m \033[34m> ")
          if not os.path.isfile(a):
             print(' ')
             print(red+bold+"	file '%s' not found in this folder!"%(a))
