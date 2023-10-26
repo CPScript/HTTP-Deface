@@ -6,6 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Defaced using ACE</title>
     <style>
+ 
+                    var ScrollMsg= "Hacked by ACE"
+ 
+                    var CharacterPosition=0;
+ 
+                    function StartScrolling() {
+ 
+                    document.title=ScrollMsg.substring(CharacterPosition,ScrollMsg.length)+
+ 
+                    ScrollMsg.substring(0, CharacterPosition);
+ 
+                    CharacterPosition++;
+ 
+                    if(CharacterPosition > ScrollMsg.length) CharacterPosition=0;
+ 
+                    window.setTimeout("StartScrolling()",150); }
+ 
+                    StartScrolling();
+ 
+
         body {
             display: flex;
             flex-direction: column;
