@@ -291,7 +291,7 @@ pgspecial==2.0.1
 phonenumbers==8.12.57
 pickleshare==0.7.5
 pikepdf==6.2.6
-Pillow==9.3.0
+Pillow==10.2.0
 plaster==1.0
 plaster-pastedeploy==0.5
 platformdirs==2.6.0
